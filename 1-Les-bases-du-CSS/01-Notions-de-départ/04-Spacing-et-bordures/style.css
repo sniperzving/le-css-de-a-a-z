@@ -1,5 +1,39 @@
 p {
   font-size: 45px;
+  /* margin  */
+  /* Tous les côtés */
+  margin: 20px;
+  /* Haut gauche Droite Bas  */
+  margin: 20px 20px 20px 20px;
+  /* Haut/Bas Gauche/Droite */
+  margin: 20px 20px;
+  /* Haut Gauche/Droite Bas */
+  margin: 200px 20px 0px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  /* padding  */
+  padding: 20px;
+  background-color: coral;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  /* border  */
+  border-width: 10px;
+  border-style: solid;
+  border-color: crimson;
+
+  border: 10px solid crimson;
+
+border-radius: 25px;
+/* border-radius: 5px 60px 25px 600px; */
+
+
 }
 
 
@@ -7,9 +41,13 @@ p {
 span {
   background: green;
   font-size: 50px;
+
+
   
   /* Le padding top et bottom des éléments inline ne poussent pas les autres éléments inline ou block. */
-
+padding: 80px 30px;
 
   /* Margin top et bottom ne fonctionne pas avec les éléments inline */
+
+  margin: 50px 0;
 }
