@@ -3,3 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-section {
+  height: 100vh;
+/*   background-color: coral;
+  background-image: url("./images/nature.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: coral url("./images/nature.jpg") center / cover no-repeat;
+}
