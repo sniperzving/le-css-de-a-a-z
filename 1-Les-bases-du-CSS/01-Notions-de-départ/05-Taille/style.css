@@ -4,12 +4,20 @@
 body {
   background: #333;
 }
+
+html, body {
+  height: auto;
+}
 /* 
   Un élément bloc prend l'entièreté de la largeur de son parent.
   Sa valeur est "auto".
 */
 .box {
+  height: 200px;
   background-color: salmon;
+  /* width: 50%; */
+  min-width: 800px;
+  margin: 0px auto;
 }
 
 
@@ -21,20 +29,21 @@ body {
 
 .child {
   height: 50px;
-  background: green;
+  background: cornsilk;
 }
 
 p {
   color: #f1f1f1;
+  background: royalblue;
   font-size: 24px;
 
   /* min-content = Largeur du contenu le plus grand (ici du mot le plus grand) */
-
+width: min-content;
 
   /* max-content = Longueur totale du contenu sans interuption. Ici la longueur totale de tous les mots. */
 
-
+  width: max-content;
   
   /* fit-content = Utilise max-content si ça ne dépasse pas, sinon la largeur disponible, et au minimum min-content. */
-
+width: fit-content;
 }
