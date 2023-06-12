@@ -54,6 +54,10 @@ ul {
   list-style-position: inside;
 }
 
+ol {
+  list-style-type: upper-roman;
+}
+
 ul li {
   padding-left: 20px;
 }
