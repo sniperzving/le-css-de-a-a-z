@@ -3,12 +3,17 @@ p {
   color: #f1f1f1;
   font-size: 45px;
   /* Valeur de base pour un <p> */
-
+display: block;
   /* Transformation en ligne */
+display: inline;
+/* Mix des deux */
+display: inline-block;
+width: 500px;
+height: 250px;
+padding: 50px;
 
-  /* Mix des deux */
-
-  /* Disparation visuelle, mais reste dans le DOM */
+/* Disparation visuelle, mais reste dans le DOM */
+display: none;
 }
 
 span {
@@ -17,4 +22,10 @@ span {
   font-size: 45px;
 
   /* On peut changer le display de tous les élémens */
+  display: block;
+}
+
+button {
+  min-width: 150px;
+  padding: 12px 5px;
 }
