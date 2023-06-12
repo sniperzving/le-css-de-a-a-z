@@ -1,19 +1,64 @@
+/* *, ::before, ::after {
+  padding: 0;
+  margin: 0;
+
+}
+ */
+
 body {
   background-color: #333;
   color: cornsilk;
+  font-family: serif;
 }
 
 /* Titre */
 
-
+h1 {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
 
 /* Lien */
 
-
+a {
+  color: #f1f1f1;
+  text-decoration: underline red;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 10px;
+  text-decoration: none;
+  background: green;
+  cursor: zoom-in;
+}
 
 /* Paragraphe */
 
+p {
+  font-size: 18px;
+  line-height: 1.3;
+  /* 130% de la Font-size */
+  text-transform: capitalize;
+  /* text-align: justify; */
+  /* On évite le justify */
+  max-width: 600px;
+  margin: 0 auto;
 
-  
+}
+
+
 /* Listes */
+ul {
+  list-style-type: hello;
+  list-style-image: url('./ressources/basketball.svg');
+  list-style-position: inside;
+}
 
+ul li {
+  padding-left: 20px;
+}
+
+li::marker {
+  font-size: 30px;
+ 
+}
