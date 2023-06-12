@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Stay Classy";
+    src: url("./fonts/Stay\ Classy\ SLDT.otf"), url("./fonts/Stay\ Classy\ SLDT.ttf");
+}
+
+h1 {
+    font-family: Stay Classy, sans-serif;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 300;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.4;
+max-width: 450px;
+margin: 0 auto;
+}
